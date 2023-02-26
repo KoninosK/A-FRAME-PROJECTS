@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>New WebXR Scene</title>
+    <script src='aframe.min.js'>
+    </script>
+</head>
+<body> 
+    <a-scene>
+    <a-plane position='0 0 0' rotation='-90 0 0' height='40' width='40' material='shader: flat; color: grey; ' shadow='receive: true'>
+    </a-plane>
+	
+	<a-entity tag='Star' position='0 0 9'>
+	    <a-box color='black' position='1 1.6 5'></a-box>
+		<a-box color='white' position='2 1.6 5'></a-box>
+		<a-box color='black' position='3 1.6 5'></a-box>
+		<a-box color='black' position='2 2.6 5'></a-box>
+		<a-box color='black' position='2 0.6 5'></a-box>
+	</a-entity>
+	
+	<a-entity>
+		<a-box color='blue' position='1 1.6 -1'></a-box>
+		<a-box color='red' position='2 1.6 -1'></a-box>
+		<a-box color='blue' position='3 1.6 -1'></a-box>
+		<a-box color='blue' position='2 2.6 -1'></a-box>
+		<a-box color='blue' position='2 0.6 -1'></a-box>
+	</a-entity>
+	<a-entity>
+	<a-plane position='0 5 -20' rotation='0 0 0' height='10' width='40' material='shader: flat; color: #A52A2A; ' shadow='receive: true'>
+    </a-plane>
+	
+	<a-plane position='0 10 0' rotation='90 0 0' height='40' width='40' material='shader: flat; color: #A52A2A; ' shadow='receive: true'>
+    </a-plane>
+	
+	
+	<a-plane position='0 5 20' rotation='180 0 0' height='10' width='40' material='shader: flat; color: #A52A2A; ' shadow='receive: true'>
+    </a-plane>
+	
+	<a-plane position='20 5 0' rotation='180 90 0' height='10' width='40' material='shader: flat; color: #A52A2A; ' shadow='receive: true'>
+    </a-plane>
+	
+	<a-plane position='-20 5 0' rotation='180 -90 0' height='10' width='40' material='shader: flat; color: #A52A2A; ' shadow='receive: true'>
+    </a-plane>
+	
+	<a-torus color="white" position="-4 4 10" scale="4 4 0.1" rotation="60 60 180"></a-torus>
+	<a-sphere color="black" position="-4 4 10" scale="2 2 2"></a-sphere>
+	
+	<a-sphere color="grey" position="-8 4 10" scale="0.5 0.5 0.5"></a-sphere>
+	<a-sphere color="grey" position="-4 7 13" scale="0.5 0.5 0.5"></a-sphere>
+	<a-sphere color="grey" position="-1 4 10" scale="0.5 0.5 0.5"></a-sphere>
+	
+	
+	
+     </a-scene>
+</body>
+</html>
