@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>World 1</title>
+	<script src="aframe.min.js"></script>
+</head>
+<body>
+ <a-scene>
+ 
+ 
+ 
+ 
+ 	<a-sky color="lightblue"></a-sky>
+	
+	
+	
+	
+	<!-- Scene Section -->
+	
+	
+	
+	<a-entity id="Scene" light-receive: false>
+	
+		<a-plane material="color:grey;" width="40" 	
+	height="40" position="0 0 0" rotation="-90 0 0"></a-plane>
+	
+	<a-plane position='0 5 -20' rotation='0 0 0' height='10' width='40' material='shader: flat; color: #A52A2A; ' shadow='receive: true'>
+	    </a-plane>
+		
+		<a-plane position='0 10 0' rotation='90 0 0' height='40' width='40' material='shader: flat; color: #A52A2A; ' shadow='receive: true'>
+	    </a-plane>
+		
+		
+		<a-plane position='0 5 20' rotation='180 0 0' height='10' width='40' material='shader: flat; color: #A52A2A; ' shadow='receive: true'>
+	    </a-plane>
+		
+		<a-plane position='20 5 0' rotation='180 90 0' height='10' width='40' material='shader: flat; color: #A52A2A; ' shadow='receive: true'>
+	    </a-plane>
+		
+		<a-plane position='-20 5 0' rotation='180 -90 0' height='10' width='40' material='shader: flat; color: #A52A2A; ' shadow='receive: true'>
+	    </a-plane>
+ 
+ </a-entity>
+ 
+ 
+ <!-- Camera -->
+ <a-camera id="Head" position="0 2.5 0"></a-camera>
+
+ 
+ 
+ <!-- Objects -->
+ 
+ 
+ 
+ 
+ <a-entity id="Desk" position="0 1 -10">
+ 	<a-box id="Table-Surface" position="0 0.5 -6" scale="6 0.3 3"></a-box>
+	
+	
+	<!-- Table legs -->
+ 
+ 	<a-box position="-2.5 -1 -7" scale="0.3 3 0.3"></a-box>
+	<a-box position="-2.5 -1 -5.1" scale="0.3 3 0.3"></a-box>
+ 	<a-box position="2.5 -1 -5.1" scale="0.3 3 0.3"></a-box>
+	<a-box position="2.5 -1 -7" scale="0.3 3 0.3"></a-box>
+ 
+ 
+ </a-entity>
+ 
+ 
+ <a-entity id="Desk2" position="-10 1 -10">
+ 	<a-box id="Table-Surface" position="0 0.5 -6" scale="6 0.3 3"></a-box>
+	
+	
+	<!-- Table legs -->
+ 
+ 	<a-box position="-2.5 -1 -7" scale="0.3 3 0.3"></a-box>
+	<a-box position="-2.5 -1 -5.1" scale="0.3 3 0.3"></a-box>
+ 	<a-box position="2.5 -1 -5.1" scale="0.3 3 0.3"></a-box>
+	<a-box position="2.5 -1 -7" scale="0.3 3 0.3"></a-box>
+ 
+ 
+ </a-entity>
+ 
+ 
+ <a-entity id="Desk3" position="10 1 -10">
+ 	<a-box id="Table-Surface" position="0 0.5 -6" scale="6 0.3 3"></a-box>
+	
+	
+	<!-- Table legs -->
+ 
+ 	<a-box position="-2.5 -1 -7" scale="0.3 3 0.3"></a-box>
+	<a-box position="-2.5 -1 -5.1" scale="0.3 3 0.3"></a-box>
+ 	<a-box position="2.5 -1 -5.1" scale="0.3 3 0.3"></a-box>
+	<a-box position="2.5 -1 -7" scale="0.3 3 0.3"></a-box>
+ 
+ 
+ </a-entity>
+ 
+ 
+ </a-scene>
+
+
+</body>
+</html>
